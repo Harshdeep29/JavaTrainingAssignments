@@ -1,54 +1,60 @@
-# Java Training Assignments ☕️
+# ☕ Java Training Assignments
 
-This repository contains all the assignments completed during Core Java Summer Training. The assignments are organized module-wise, each demonstrating key Java concepts like OOP, collections, exception handling, stream API, and more.
+This repository contains all the Core Java assignments completed during my summer training. The assignments are organized module-wise and cover foundational Java concepts such as variables, control flow, OOP, collections, exception handling, and the Stream API.
 
 ---
 
-## 📦 Module Structure
+## 📁 Project Structure
+
+```
 
 JavaTrainingAssignments/
 ├── Module2/
+│   ├── Assignment\_01\_ItemCostCalculator/
+│   ├── Assignment\_02\_DiceGame/
+│   ├── Assignment\_03\_ReverseWords/
+│   └── Assignment\_04\_TemperatureAnalysis/
+│
 ├── Module3/
+│   ├── Assignment\_01\_StudentAverage/
+│   ├── Assignment\_02\_EcommerceInheritance/
+│   └── Assignment\_03\_EmployeePayroll/
+│
 ├── Module4/
+│   ├── Assignment\_01\_PowerCalculator/
+│   ├── Assignment\_02\_ArrayListOperations/
+│   ├── Assignment\_03\_HashSetDemo/
+│   └── Assignment\_04\_StreamAPIProductOps/
 
+```
 
 ---
 
-## 📘 Module-wise Assignment Overview
+## 📘 Module Overview
 
 ### 🔹 Module 2
-> Basic Java Programs using variables, operators, and control flow.
-
-- **Assignment 1:** Item Cost Calculator with tax and discount.
-- **Assignment 2:** Two-player Dice Game simulation.
-- **Assignment 3:** Reverse the order of words in a sentence.
-- **Assignment 4:** Temperature analysis (avg, high, low, count > 80°F or < 60°F).
-
----
+- Assignment 1: Item cost calculator using operators
+- Assignment 2: Dice game simulation
+- Assignment 3: Reverse words in a sentence
+- Assignment 4: Temperature analysis for a week
 
 ### 🔹 Module 3
-> Object-Oriented Programming Concepts
-
-- **Assignment 1:** `Student` class using encapsulation and average marks calculation.
-- **Assignment 2:** E-commerce system with inheritance and method overriding.
-- **Assignment 3:** Payroll system using abstract classes for full-time and part-time employees.
-
----
+- Assignment 1: Student class using encapsulation
+- Assignment 2: E-commerce inheritance and method overriding
+- Assignment 3: Payroll system using abstract classes
 
 ### 🔹 Module 4
-> Collections, Exception Handling, and Stream API
-
-- **Assignment 1:** Power calculator with exception handling.
-- **Assignment 2:** Operations on `ArrayList<Integer>`.
-- **Assignment 3:** `HashSet<String>` usage and iteration.
-- **Assignment 4:** Stream API tasks on a list of products (filter, sort, total, group by category).
+- Assignment 1: Power calculator with exception handling
+- Assignment 2: ArrayList operations (add, insert, remove)
+- Assignment 3: HashSet basics with iterator
+- Assignment 4: Stream API operations on product list
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Technologies Used
 
 - Java 17
-- IntelliJ IDEA (Community Edition)
+- IntelliJ IDEA
 - JDK & JVM
 - Git & GitHub
 
@@ -56,14 +62,29 @@ JavaTrainingAssignments/
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+1. Clone this repository:
    ```bash
-   git clone git@github.com:Harshdeep29/JavaTrainingAssignments.git
+   git clone https://github.com/Harshdeep29/JavaTrainingAssignments.git
+
+2. Open the project in **IntelliJ IDEA**
+
+3. Navigate to any `Main.java` inside a module/assignment folder
+
+4. Run the file using IntelliJ's Run button or terminal
 
 
-👨‍💻 Author
+---
 
-Harshdeep Bishnoi
-Summer Training – Core Java
-GitHub Profile
+## 👤 Author
 
+**Harshdeep Bishnoi**  
+📧 Email: [Mail](mailto:hdeep718@gmail.com)  
+🔗 GitHub: [Harshdeep29](https://github.com/Harshdeep29)
+
+---
+
+## 📜 License
+
+This repository is intended for **educational use** as part of a Java training program.  
+You are free to explore, learn from, and build upon this work.  
+Commercial use or redistribution without attribution is discouraged.
